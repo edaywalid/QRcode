@@ -1,0 +1,206 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.qrcode_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/walid/Documents/coding/dart/qrcode_app/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/home/walid/Documents/coding/dart/qrcode_app/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->[:mobile_scanner] /home/walid/Documents/coding/dart/qrcode_app/build/mobile_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-65
+11-->[:mobile_scanner] /home/walid/Documents/coding/dart/qrcode_app/build/mobile_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-62
+12
+13    <uses-feature
+13-->[:mobile_scanner] /home/walid/Documents/coding/dart/qrcode_app/build/mobile_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-13:36
+14        android:name="android.hardware.camera"
+14-->[:mobile_scanner] /home/walid/Documents/coding/dart/qrcode_app/build/mobile_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-47
+15        android:required="false" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+15-->[:mobile_scanner] /home/walid/Documents/coding/dart/qrcode_app/build/mobile_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:13:9-33
+16    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/walid/.gradle/caches/transforms-3/865800f069935b874f356d17af4d45b6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+17-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/walid/.gradle/caches/transforms-3/865800f069935b874f356d17af4d45b6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:22-76
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/walid/.gradle/caches/transforms-3/865800f069935b874f356d17af4d45b6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+18-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/walid/.gradle/caches/transforms-3/865800f069935b874f356d17af4d45b6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:22-64
+19
+20    <application
+21        android:name="android.app.Application"
+21-->/home/walid/Documents/coding/dart/qrcode_app/android/app/src/main/AndroidManifest.xml:4:9-42
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.6.0] /home/walid/.gradle/caches/transforms-3/7e9df2ac2213a6bd3cef0f2f27870d79/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+23        android:icon="@mipmap/ic_launcher"
+23-->/home/walid/Documents/coding/dart/qrcode_app/android/app/src/main/AndroidManifest.xml:5:9-43
+24        android:label="qrcode_app" >
+24-->/home/walid/Documents/coding/dart/qrcode_app/android/app/src/main/AndroidManifest.xml:3:9-35
+25        <activity
+25-->/home/walid/Documents/coding/dart/qrcode_app/android/app/src/main/AndroidManifest.xml:6:9-26:20
+26            android:name="com.example.qrcode_app.MainActivity"
+26-->/home/walid/Documents/coding/dart/qrcode_app/android/app/src/main/AndroidManifest.xml:7:13-41
+27            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+27-->/home/walid/Documents/coding/dart/qrcode_app/android/app/src/main/AndroidManifest.xml:11:13-163
+28            android:exported="true"
+28-->/home/walid/Documents/coding/dart/qrcode_app/android/app/src/main/AndroidManifest.xml:8:13-36
+29            android:hardwareAccelerated="true"
+29-->/home/walid/Documents/coding/dart/qrcode_app/android/app/src/main/AndroidManifest.xml:12:13-47
+30            android:launchMode="singleTop"
+30-->/home/walid/Documents/coding/dart/qrcode_app/android/app/src/main/AndroidManifest.xml:9:13-43
+31            android:theme="@style/LaunchTheme"
+31-->/home/walid/Documents/coding/dart/qrcode_app/android/app/src/main/AndroidManifest.xml:10:13-47
+32            android:windowSoftInputMode="adjustResize" >
+32-->/home/walid/Documents/coding/dart/qrcode_app/android/app/src/main/AndroidManifest.xml:13:13-55
+33
+34            <!--
+35                 Specifies an Android theme to apply to this Activity as soon as
+36                 the Android process has started. This theme is visible to the user
+37                 while the Flutter UI initializes. After that, this theme continues
+38                 to determine the Window background behind the Flutter UI.
+39            -->
+40            <meta-data
+40-->/home/walid/Documents/coding/dart/qrcode_app/android/app/src/main/AndroidManifest.xml:18:13-21:17
+41                android:name="io.flutter.embedding.android.NormalTheme"
+41-->/home/walid/Documents/coding/dart/qrcode_app/android/app/src/main/AndroidManifest.xml:19:15-70
+42                android:resource="@style/NormalTheme" />
+42-->/home/walid/Documents/coding/dart/qrcode_app/android/app/src/main/AndroidManifest.xml:20:15-52
+43
+44            <intent-filter>
+44-->/home/walid/Documents/coding/dart/qrcode_app/android/app/src/main/AndroidManifest.xml:22:13-25:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/home/walid/Documents/coding/dart/qrcode_app/android/app/src/main/AndroidManifest.xml:23:17-68
+45-->/home/walid/Documents/coding/dart/qrcode_app/android/app/src/main/AndroidManifest.xml:23:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/home/walid/Documents/coding/dart/qrcode_app/android/app/src/main/AndroidManifest.xml:24:17-76
+47-->/home/walid/Documents/coding/dart/qrcode_app/android/app/src/main/AndroidManifest.xml:24:27-74
+48            </intent-filter>
+49        </activity>
+50        <!--
+51             Don't delete the meta-data below.
+52             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+53        -->
+54        <meta-data
+54-->/home/walid/Documents/coding/dart/qrcode_app/android/app/src/main/AndroidManifest.xml:29:9-31:33
+55            android:name="flutterEmbedding"
+55-->/home/walid/Documents/coding/dart/qrcode_app/android/app/src/main/AndroidManifest.xml:30:13-44
+56            android:value="2" />
+56-->/home/walid/Documents/coding/dart/qrcode_app/android/app/src/main/AndroidManifest.xml:31:13-30
+57
+58        <uses-library
+58-->[androidx.window:window:1.0.0-beta04] /home/walid/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+59            android:name="androidx.window.extensions"
+59-->[androidx.window:window:1.0.0-beta04] /home/walid/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+60            android:required="false" />
+60-->[androidx.window:window:1.0.0-beta04] /home/walid/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+61        <uses-library
+61-->[androidx.window:window:1.0.0-beta04] /home/walid/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+62            android:name="androidx.window.sidecar"
+62-->[androidx.window:window:1.0.0-beta04] /home/walid/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+63            android:required="false" />
+63-->[androidx.window:window:1.0.0-beta04] /home/walid/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+64
+65        <service
+65-->[androidx.camera:camera-camera2:1.2.3] /home/walid/.gradle/caches/transforms-3/109c5c4449370ebca1b110e71c6c792b/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:24:9-33:19
+66            android:name="androidx.camera.core.impl.MetadataHolderService"
+66-->[androidx.camera:camera-camera2:1.2.3] /home/walid/.gradle/caches/transforms-3/109c5c4449370ebca1b110e71c6c792b/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:25:13-75
+67            android:enabled="false"
+67-->[androidx.camera:camera-camera2:1.2.3] /home/walid/.gradle/caches/transforms-3/109c5c4449370ebca1b110e71c6c792b/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:26:13-36
+68            android:exported="false" >
+68-->[androidx.camera:camera-camera2:1.2.3] /home/walid/.gradle/caches/transforms-3/109c5c4449370ebca1b110e71c6c792b/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:27:13-37
+69            <meta-data
+69-->[androidx.camera:camera-camera2:1.2.3] /home/walid/.gradle/caches/transforms-3/109c5c4449370ebca1b110e71c6c792b/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:30:13-32:89
+70                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+70-->[androidx.camera:camera-camera2:1.2.3] /home/walid/.gradle/caches/transforms-3/109c5c4449370ebca1b110e71c6c792b/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:31:17-103
+71                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+71-->[androidx.camera:camera-camera2:1.2.3] /home/walid/.gradle/caches/transforms-3/109c5c4449370ebca1b110e71c6c792b/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:32:17-86
+72        </service>
+73        <service
+73-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /home/walid/.gradle/caches/transforms-3/915eb3f3c4a6c868570f1846b647a869/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:9:9-15:19
+74            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+74-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /home/walid/.gradle/caches/transforms-3/915eb3f3c4a6c868570f1846b647a869/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:10:13-91
+75            android:directBootAware="true"
+75-->[com.google.mlkit:common:18.9.0] /home/walid/.gradle/caches/transforms-3/f2ab4b6ebb578256bb88a4f3e38fa738/transformed/jetified-common-18.9.0/AndroidManifest.xml:17:13-43
+76            android:exported="false" >
+76-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /home/walid/.gradle/caches/transforms-3/915eb3f3c4a6c868570f1846b647a869/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:11:13-37
+77            <meta-data
+77-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /home/walid/.gradle/caches/transforms-3/915eb3f3c4a6c868570f1846b647a869/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:12:13-14:85
+78                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+78-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /home/walid/.gradle/caches/transforms-3/915eb3f3c4a6c868570f1846b647a869/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:13:17-120
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /home/walid/.gradle/caches/transforms-3/915eb3f3c4a6c868570f1846b647a869/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:14:17-82
+80            <meta-data
+80-->[com.google.mlkit:vision-common:17.3.0] /home/walid/.gradle/caches/transforms-3/66bd106c250be9f02190d447f7a4703c/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:12:13-14:85
+81                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+81-->[com.google.mlkit:vision-common:17.3.0] /home/walid/.gradle/caches/transforms-3/66bd106c250be9f02190d447f7a4703c/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:13:17-124
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.mlkit:vision-common:17.3.0] /home/walid/.gradle/caches/transforms-3/66bd106c250be9f02190d447f7a4703c/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:14:17-82
+83            <meta-data
+83-->[com.google.mlkit:common:18.9.0] /home/walid/.gradle/caches/transforms-3/f2ab4b6ebb578256bb88a4f3e38fa738/transformed/jetified-common-18.9.0/AndroidManifest.xml:20:13-22:85
+84                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+84-->[com.google.mlkit:common:18.9.0] /home/walid/.gradle/caches/transforms-3/f2ab4b6ebb578256bb88a4f3e38fa738/transformed/jetified-common-18.9.0/AndroidManifest.xml:21:17-120
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.mlkit:common:18.9.0] /home/walid/.gradle/caches/transforms-3/f2ab4b6ebb578256bb88a4f3e38fa738/transformed/jetified-common-18.9.0/AndroidManifest.xml:22:17-82
+86        </service>
+87
+88        <provider
+88-->[com.google.mlkit:common:18.9.0] /home/walid/.gradle/caches/transforms-3/f2ab4b6ebb578256bb88a4f3e38fa738/transformed/jetified-common-18.9.0/AndroidManifest.xml:9:9-13:38
+89            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+89-->[com.google.mlkit:common:18.9.0] /home/walid/.gradle/caches/transforms-3/f2ab4b6ebb578256bb88a4f3e38fa738/transformed/jetified-common-18.9.0/AndroidManifest.xml:10:13-78
+90            android:authorities="com.example.qrcode_app.mlkitinitprovider"
+90-->[com.google.mlkit:common:18.9.0] /home/walid/.gradle/caches/transforms-3/f2ab4b6ebb578256bb88a4f3e38fa738/transformed/jetified-common-18.9.0/AndroidManifest.xml:11:13-69
+91            android:exported="false"
+91-->[com.google.mlkit:common:18.9.0] /home/walid/.gradle/caches/transforms-3/f2ab4b6ebb578256bb88a4f3e38fa738/transformed/jetified-common-18.9.0/AndroidManifest.xml:12:13-37
+92            android:initOrder="99" />
+92-->[com.google.mlkit:common:18.9.0] /home/walid/.gradle/caches/transforms-3/f2ab4b6ebb578256bb88a4f3e38fa738/transformed/jetified-common-18.9.0/AndroidManifest.xml:13:13-35
+93
+94        <activity
+94-->[com.google.android.gms:play-services-base:18.1.0] /home/walid/.gradle/caches/transforms-3/781e5567158e59d38ee2b89930f9808b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+95            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+95-->[com.google.android.gms:play-services-base:18.1.0] /home/walid/.gradle/caches/transforms-3/781e5567158e59d38ee2b89930f9808b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+96            android:exported="false"
+96-->[com.google.android.gms:play-services-base:18.1.0] /home/walid/.gradle/caches/transforms-3/781e5567158e59d38ee2b89930f9808b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+97            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+97-->[com.google.android.gms:play-services-base:18.1.0] /home/walid/.gradle/caches/transforms-3/781e5567158e59d38ee2b89930f9808b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+98
+99        <meta-data
+99-->[com.google.android.gms:play-services-basement:18.1.0] /home/walid/.gradle/caches/transforms-3/58aa1384bde170d075503b845cfcf44c/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+100            android:name="com.google.android.gms.version"
+100-->[com.google.android.gms:play-services-basement:18.1.0] /home/walid/.gradle/caches/transforms-3/58aa1384bde170d075503b845cfcf44c/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+101            android:value="@integer/google_play_services_version" />
+101-->[com.google.android.gms:play-services-basement:18.1.0] /home/walid/.gradle/caches/transforms-3/58aa1384bde170d075503b845cfcf44c/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+102
+103        <service
+103-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/walid/.gradle/caches/transforms-3/865800f069935b874f356d17af4d45b6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+104            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+104-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/walid/.gradle/caches/transforms-3/865800f069935b874f356d17af4d45b6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+105            android:exported="false" >
+105-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/walid/.gradle/caches/transforms-3/865800f069935b874f356d17af4d45b6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+106            <meta-data
+106-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/walid/.gradle/caches/transforms-3/865800f069935b874f356d17af4d45b6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+107                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+107-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/walid/.gradle/caches/transforms-3/865800f069935b874f356d17af4d45b6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+108                android:value="cct" />
+108-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/walid/.gradle/caches/transforms-3/865800f069935b874f356d17af4d45b6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+109        </service>
+110        <service
+110-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/walid/.gradle/caches/transforms-3/8a86750eba43ba46ae6e646b43a84835/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+111            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+111-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/walid/.gradle/caches/transforms-3/8a86750eba43ba46ae6e646b43a84835/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+112            android:exported="false"
+112-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/walid/.gradle/caches/transforms-3/8a86750eba43ba46ae6e646b43a84835/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+113            android:permission="android.permission.BIND_JOB_SERVICE" >
+113-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/walid/.gradle/caches/transforms-3/8a86750eba43ba46ae6e646b43a84835/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+114        </service>
+115
+116        <receiver
+116-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/walid/.gradle/caches/transforms-3/8a86750eba43ba46ae6e646b43a84835/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+117            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+117-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/walid/.gradle/caches/transforms-3/8a86750eba43ba46ae6e646b43a84835/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+118            android:exported="false" />
+118-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/walid/.gradle/caches/transforms-3/8a86750eba43ba46ae6e646b43a84835/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+119    </application>
+120
+121</manifest>

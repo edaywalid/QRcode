@@ -1,0 +1,12 @@
+/home/walid/Documents/coding/dart/qrcode_app/build/linux/x64/debug/bundle/qrcode_app
+/home/walid/Documents/coding/dart/qrcode_app/build/linux/x64/debug/bundle/data/icudtl.dat
+/home/walid/Documents/coding/dart/qrcode_app/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
+/home/walid/Documents/coding/dart/qrcode_app/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
+/home/walid/Documents/coding/dart/qrcode_app/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin
+/home/walid/Documents/coding/dart/qrcode_app/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+/home/walid/Documents/coding/dart/qrcode_app/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.bin
+/home/walid/Documents/coding/dart/qrcode_app/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z
+/home/walid/Documents/coding/dart/qrcode_app/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.json
+/home/walid/Documents/coding/dart/qrcode_app/build/linux/x64/debug/bundle/data/flutter_assets/shaders/ink_sparkle.frag
+/home/walid/Documents/coding/dart/qrcode_app/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+/home/walid/Documents/coding/dart/qrcode_app/build/linux/x64/debug/bundle/data/flutter_assets/version.json

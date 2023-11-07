@@ -1,0 +1,17 @@
+dev.steenbakker.mobile_scanner-jetified-camera-camera2-1.2.3-0 /home/walid/.gradle/caches/transforms-3/109c5c4449370ebca1b110e71c6c792b/transformed/jetified-camera-camera2-1.2.3/res
+dev.steenbakker.mobile_scanner-jetified-window-1.0.0-beta04-1 /home/walid/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/res
+dev.steenbakker.mobile_scanner-jetified-play-services-basement-18.1.0-2 /home/walid/.gradle/caches/transforms-3/58aa1384bde170d075503b845cfcf44c/transformed/jetified-play-services-basement-18.1.0/res
+dev.steenbakker.mobile_scanner-jetified-camera-core-1.2.3-3 /home/walid/.gradle/caches/transforms-3/5a67bf47e5aa3f2f63785188c6276681/transformed/jetified-camera-core-1.2.3/res
+dev.steenbakker.mobile_scanner-jetified-annotation-experimental-1.1.0-4 /home/walid/.gradle/caches/transforms-3/6c0c163cc77ae6c91f9f7dfcd179c29c/transformed/jetified-annotation-experimental-1.1.0/res
+dev.steenbakker.mobile_scanner-jetified-play-services-base-18.1.0-5 /home/walid/.gradle/caches/transforms-3/781e5567158e59d38ee2b89930f9808b/transformed/jetified-play-services-base-18.1.0/res
+dev.steenbakker.mobile_scanner-core-1.6.0-6 /home/walid/.gradle/caches/transforms-3/7e9df2ac2213a6bd3cef0f2f27870d79/transformed/core-1.6.0/res
+dev.steenbakker.mobile_scanner-jetified-window-java-1.0.0-beta04-7 /home/walid/.gradle/caches/transforms-3/ae81e06d24c799147c26814497a2a305/transformed/jetified-window-java-1.0.0-beta04/res
+dev.steenbakker.mobile_scanner-jetified-camera-lifecycle-1.2.3-8 /home/walid/.gradle/caches/transforms-3/e19ff0a2865acf0292bdf1799e59be98/transformed/jetified-camera-lifecycle-1.2.3/res
+dev.steenbakker.mobile_scanner-main-9 /home/walid/.pub-cache/hosted/pub.dev/mobile_scanner-3.5.2/android/src/main/res
+dev.steenbakker.mobile_scanner-release-10 /home/walid/.pub-cache/hosted/pub.dev/mobile_scanner-3.5.2/android/src/release/res
+dev.steenbakker.mobile_scanner-pngs-11 /home/walid/Documents/coding/dart/qrcode_app/build/mobile_scanner/generated/res/pngs/release
+dev.steenbakker.mobile_scanner-resValues-12 /home/walid/Documents/coding/dart/qrcode_app/build/mobile_scanner/generated/res/resValues/release
+dev.steenbakker.mobile_scanner-rs-13 /home/walid/Documents/coding/dart/qrcode_app/build/mobile_scanner/generated/res/rs/release
+dev.steenbakker.mobile_scanner-mergeReleaseResources-14 /home/walid/Documents/coding/dart/qrcode_app/build/mobile_scanner/intermediates/incremental/release/mergeReleaseResources/merged.dir
+dev.steenbakker.mobile_scanner-mergeReleaseResources-15 /home/walid/Documents/coding/dart/qrcode_app/build/mobile_scanner/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+dev.steenbakker.mobile_scanner-merged_res-16 /home/walid/Documents/coding/dart/qrcode_app/build/mobile_scanner/intermediates/merged_res/release
